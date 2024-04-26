@@ -5,7 +5,7 @@
 In this project, we investigate the use of contrastive learning and generative adversarial network to build an end-to-end neural network for generating realistic underwater images from a set of uniform lighting synthetic inputs conditioned on real underwater images. We use the contrastive loss to preserve the content of the generated images and modify our model architecture to account for 4-channel RGBD input. We performed inference on 190 uniform lighting images from the Vision Autonomous Robots for Ocean Sustainability (VAROS) synthetic underwater data environment and computed the Fréchet inception distance (FID) to evaluate the realism of the generated images. Two key quantitative metrics were used to evaluate our model
 
 + Fréchet inception distance (FID)
-+ Structural Similarity Index Metric (SSIM)
++ Structural similarity Index Metric (SSIM)
 
 Feature Space of Both Classes. This is also another qualitative metric. In this metric, we
 simply perform a principal component analysis (PCA) on both the uniform lighting images
