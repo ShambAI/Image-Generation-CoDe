@@ -74,5 +74,5 @@ python test.py --dataroot ./datasets/test_varos --name air2water_CUT --CUT_mode 
 This project includes code from the following sources:
 
 - [CycleGAN and pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix): Paired and unpaired image translation baseline.
-- [CUT](https://github.com/taesungp/contrastive-unpaired-translation): Unpaired image translation baseline.
+- [CUT](https://github.com/taesungp/contrastive-unpaired-translation): Unpaired image translation baseline. We modified the contrastive loss and model architecture to account for the extra depth information.
 - [Pytorch-FID](https://github.com/mseitzer/pytorch-fid): For computing the FID scores.
