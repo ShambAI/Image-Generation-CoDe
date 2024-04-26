@@ -69,5 +69,11 @@ Executing the `test.py` uses the latest trained model
 python test.py --dataroot ./datasets/test_varos --name air2water_CUT --CUT_mode CUT
 ```
 
-## Company
-[Alteia ](https://alteia.com/software/) [NTNU ](https://www.ntnu.edu/)
+## Acknowledgments
+## Acknowledgments
+
+This project includes code from the following sources:
+
+- [CycleGAN and pix2pix]([link_to_original_source](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)): Paired and unpaired image translation baseline.
+- [CUT]([link_to_original_source](https://github.com/taesungp/contrastive-unpaired-translation)): Unpaired image translation baseline.
+- [Pytorch-FID]([link_to_original_source](https://github.com/mseitzer/pytorch-fid)): For computing the FID scores.
